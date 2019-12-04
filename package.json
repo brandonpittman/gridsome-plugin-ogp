@@ -1,12 +1,22 @@
 {
   "name": "gridsome-plugin-ogp",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [
+    "gridsome",
+    "ogp",
+    "open graph",
+    "seo"
+  ],
+  "author": "Brandon Pittman",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonpittman/gridsome-plugin-ogp.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "bugs": {
+    "url": "https://github.com/brandonpittman/gridsome-plugin-ogp/issues"
+  },
+  "homepage": "https://github.com/brandonpittman/gridsome-plugin-ogp#readme",
+  "description": "A Gridsome plugin to make adding OGP meta tags easier."
 }
