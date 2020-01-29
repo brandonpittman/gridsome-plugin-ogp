@@ -1,6 +1,7 @@
 # gridsome-plugin-ogp
 
-Adding OGP meta tags to every page can be a pain. This plugin aims to alleviate that pain. Add the plugin to your project like so.
+Adding OGP meta tags to every page can be a pain. This plugin aims to alleviate
+that pain. Add the plugin to your project like so.
 
 ```sh
 npm i gridsome-plugin-ogp
@@ -16,7 +17,8 @@ plugins: [
 ]
 ```
 
-Then, in any page or template component you have, adjust the `metaInfo` hook like so.
+Then, in any page or template component you have, adjust the `metaInfo` hook
+like so.
 
 ```javascript
 metaInfo() {
@@ -25,9 +27,11 @@ metaInfo() {
       title: 'your-title',
       description: 'your-description',
       image: 'your-image-url'
+      appId: 'someFacebookAppID' // Facebook-only
     })
   }
 }
 ```
 
-This will then populate the meta tags needed for Facebook, Google, and Twitter. It will also set the standard page title and description at the same time.
+This will then populate the meta tags needed for Facebook, Google, and Twitter.
+It will also set the standard page title and description at the same time.
