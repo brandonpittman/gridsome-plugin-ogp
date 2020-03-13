@@ -1,6 +1,6 @@
 {
   "name": "gridsome-plugin-ogp",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "main": "gridsome.client.js",
   "keywords": [
     "gridsome",
