@@ -18,5 +18,8 @@
     "url": "https://github.com/brandonpittman/gridsome-plugin-ogp/issues"
   },
   "homepage": "https://github.com/brandonpittman/gridsome-plugin-ogp#readme",
-  "description": "A Gridsome plugin to make adding OGP meta tags easier."
+  "description": "A Gridsome plugin to make adding OGP meta tags easier.",
+  "dependencies": {
+    "xo": "^0.28.0"
+  }
 }
