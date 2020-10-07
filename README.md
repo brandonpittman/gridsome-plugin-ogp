@@ -28,7 +28,7 @@ metaInfo() {
       description: 'your-description',
       keywords: 'your-keyword-list',
       image: 'your-image-url',
-      site: 'your-site-name',
+      siteName: 'your-site-name',
       twitterSite: '@your-twitter-site',
       appId: 'someFacebookAppID' // Facebook-only
     })
