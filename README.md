@@ -26,7 +26,10 @@ metaInfo() {
     ...this.$ogp({
       title: 'your-title',
       description: 'your-description',
+      keywords: 'your-keyword-list'
       image: 'your-image-url'
+      site: 'your-site-name'
+      twitterSite: '@your-twitter-site'
       appId: 'someFacebookAppID' // Facebook-only
     })
   }
